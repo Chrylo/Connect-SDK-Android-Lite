@@ -4,6 +4,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.2'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
     }
 }
 
@@ -15,7 +16,8 @@ allprojects {
 
 apply plugin: 'com.android.library'
 apply plugin: 'jacoco'
-
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.plutotv'
 
 jacoco {
     toolVersion = "0.7.1.201405082137"

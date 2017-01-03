@@ -1,4 +1,5 @@
 [submodule "core"]
 	path = core
-	url = git@github.com:Pluto-tv/Connect-SDK-Android-Core.git
-	branch = master
+	#url = git@github.com:Pluto-tv/Connect-SDK-Android-Core.git
+	url = https://github.com/Pluto-tv/Connect-SDK-Android-Core.git
+	branch = pluto
